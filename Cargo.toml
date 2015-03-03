@@ -1,0 +1,12 @@
+[package]
+
+name = "yahoo_quote"
+version = "0.0.1"
+authors = [ "Scott Barr <scottjbarr@gmail.com>" ]
+
+[dependencies.curl]
+git = "https://github.com/carllerche/curl-rust"
+
+[[bin]]
+
+name = "yahoo_quote"
